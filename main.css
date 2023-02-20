@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive, sans-serif;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #eaeaea;
+  padding: 0 !important;
+}
+/* header */
+
+header {
+  background-color: white;
+}
+.container-fluid a img {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+}
+
+/* main */
+main {
+  padding-bottom: 100px;
+}
+.intro-txt {
+  padding: 15px 35px;
+  background-color: #233c50;
+}
+.intro-txt h3 {
+  color: white;
+}
+.intro-txt p {
+  text-align: center;
+  color: #f5f7fb;
+}
+.intro-txt-2 p {
+  padding: 30px 40px;
+  font-size: 18px;
+  color: #233c50;
+  background-color: white;
+}
+.audio-box {
+  margin-top: 70px;
+  padding-bottom: 70px;
+  background-color: white;
+}
+.audio-content h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #233c50;
+  padding: 35px 30px;
+}
+.music-big-box {
+  display: flex;
+}
+.music-content {
+  display: flex;
+}
+.music-content-left {
+  display: flex;
+}
+.music-content-right {
+  padding: 40px 20px;
+}
+.music-content-right p {
+  font-size: 20px;
+}
+.music-content-right span {
+  padding-left: 10px;
+  color: red;
+}
+.audio-content img {
+  width: 300px;
+  height: 300px;
+  padding: 20px 30px;
+}
+.music-content-2 {
+  margin-left: 200px;
+}
+.music-content-2 button {
+  padding: 20px 30px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #233c50;
+}
+.music-content-2 button:hover {
+  transition: 0.1s;
+  border: 3px solid black;
+}
+.music-content-2 a {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px 30px;
+  border: 1px solid darkcyan;
+  border-radius: 10px;
+}
+.music-content-2 a:hover {
+  color: white;
+  transition: 0.5s;
+  background-color: black;
+}
+
+@media (max-width: 1078px) {
+  .music-big-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .music-content-left img {
+    display: block;
+    width: 100% !important;
+  }
+  .music-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .music-content-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .music-content-2 a {
+    border: none;
+  }
+}
